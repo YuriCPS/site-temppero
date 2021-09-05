@@ -1,6 +1,5 @@
 body {
     background: #830000
-
   }
 
 footer {
@@ -12,6 +11,15 @@ footer {
 
 .center{
     text-align: center;
+}
+
+.logo {
+    max-width: 80%;
+    max-height: 400px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
@@ -32,3 +40,33 @@ footer {
 .button:hover{
     background-color: #fffb00;
 }
+
+.line{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;    
+}
+
+.box{
+    background-color: #ffffff;
+    float: left;
+    border-radius: 4px;
+    padding: 5px 10px;
+    max-width: 380px;
+    min-width: 280px;
+    max-height: 390px;
+}  
+
+.image-box{
+    float: right;
+    border-radius: 4px;
+    height: 425px;
+}
+
+.image{
+    max-height: 500px; 
+    min-width: 50%;
+    
+} 
